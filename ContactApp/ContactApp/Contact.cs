@@ -6,8 +6,9 @@ using System.Text;
 namespace ContactApp
 {
     class Contact
-    {
-   string ho;
+  
+        {
+  string ho;
   public string Ho
   {
     get { return ho; }
@@ -42,6 +43,5 @@ namespace ContactApp
     this.diachi = diachi;
     this.sdt = sdt;
   }
-    }
-
+        }
 }
