@@ -7,57 +7,41 @@ namespace ContactApp
 {
     class Contact
     {
-        string ho;
-        string ten;
-        string diachi;
-        string sdt;
+   string ho;
+  public string Ho
+  {
+    get { return ho; }
+    set { ho = value; }
+  }
+  
+  string ten;
+  public string Ten
+  {
+    get { return ten; }
+    set { ten = value; }
+  }
+  
+  string diachi;
+  public string DiaChi
+  {
+    get { return diachi; }
+    set { diachi = value; }
+  }
+  
+  string sdt;
+  public string SDT
+  {
+    get { return sdt; }
+    set { sdt = value; }
+  }
 
-        public Contact(string ho, string ten, string diachi, string sdt)
-        {
-            this.ho = ho;
-            this.ten = ten;
-            this.diachi = diachi;
-            this.sdt = sdt;
-        }
-
-        public void SetHo(string ho)
-        {
-            this.ho = ho;
-        }
-
-        public string GetHo()
-        {
-            return this.ho;
-        }
-
-        public void SetTen(string ten)
-        {
-            this.ten = ten;
-        }
-
-        public string GetTen()
-        {
-            return this.ten;
-        }
-
-        public void SetDiaChi(string diachi)
-        {
-            this.diachi = diachi;
-        }
-
-        public string GetDiaChi()
-        {
-            return this.diachi;
-        }
-
-        public void SetSDT(string sdt)
-        {
-            this.sdt = sdt;
-        }
-
-        public string GetSDT()
-        {
-            return this.sdt;
-        }
+  public Contact(string ho, string ten, string diachi, string sdt)
+  {
+    this.ho = ho;
+    this.ten = ten;
+    this.diachi = diachi;
+    this.sdt = sdt;
+  }
     }
+
 }

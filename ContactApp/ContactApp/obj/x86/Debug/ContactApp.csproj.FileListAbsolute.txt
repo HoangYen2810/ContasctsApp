@@ -2,3 +2,6 @@ F:\github\ContasctsApp\ContactApp\ContactApp\bin\Debug\ContactApp.exe
 F:\github\ContasctsApp\ContactApp\ContactApp\bin\Debug\ContactApp.pdb
 F:\github\ContasctsApp\ContactApp\ContactApp\obj\x86\Debug\ContactApp.exe
 F:\github\ContasctsApp\ContactApp\ContactApp\obj\x86\Debug\ContactApp.pdb
+D:\ContasctsApp\ContactApp\ContactApp\obj\x86\Debug\ContactApp.exe
+D:\ContasctsApp\ContactApp\ContactApp\obj\x86\Debug\ContactApp.pdb
+D:\ContasctsApp\ContactApp\ContactApp\obj\x86\Debug\ContactApp.csprojResolveAssemblyReference.cache
