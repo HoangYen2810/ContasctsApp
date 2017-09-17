@@ -9,9 +9,7 @@ namespace ContactApp
     {
         static void Main(string[] args)
         {
-            static void Main(string[] args)
-  {
-    List<Contact> danhba = new List<Contact>();
+             List<Contact> danhba = new List<Contact>();
     char r;
     do
     {
@@ -36,13 +34,11 @@ namespace ContactApp
     foreach (Contact c in danhba)
     {
       Console.WriteLine("{0} - {1} - {2} - {3}",
-                       c.GetHo(),
-                       c.GetTen(),
-                       c.GetDiaChi(),
-                       c.GetSDT());
+                       c.Ho,
+                       c.Ten,
+                       c.DiaChi,
+                       c.SDT);
     }
     Console.ReadLine();
   }
         }
-    }
-}
