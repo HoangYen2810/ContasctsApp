@@ -6,11 +6,7 @@ using System.Text;
 namespace ContactApp
 {
     class Program
-    {
-        static void Main(string[] args)
-        {
-            static void Main(string[] args)
-  {
+      {
     List<Contact> danhba = new List<Contact>();
     char r;
     do
@@ -36,13 +32,11 @@ namespace ContactApp
     foreach (Contact c in danhba)
     {
       Console.WriteLine("{0} - {1} - {2} - {3}",
-                       c.Ho(),
-                       c.Ten(),
-                       c.DiaChi(),
-                       c.SDT());
+                       c.Ho,
+                       c.Ten,
+                       c.DiaChi,
+                       c.SDT);
     }
     Console.ReadLine();
   }
-        }
-    }
 }
